@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    height: 100%;
+   /*background-image: linear-gradient(45deg,rgb(11, 25, 226),rgb(224, 62, 224),rgb(255, 0, 64));*/
+   background-color: rgb(26,48,60);
+    
+
+}
+
+#logotext{
+    font-family: monospace;
+    float: left;
+    font-size: 42px;
+    /*color: teal;
+    color: rgb(255, 187, 0);
+    color: #fc0d46;*/
+    color: rgb(0, 255, 229);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.myMenu{
+    float: right;
+    margin-top: 25px;
+
+}
+
+.myMenu li{
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    /*color: #68C0A4;*/
+}
+
+.myMenu a{
+    /*color: black;*/
+    text-decoration: none;
+}
+
+.myMenu a:hover{
+    background-color: #fc0d46;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.header{
+    height: 70px;
+    /*width: 80%;*/
+    background-color:rgb(26,48,60);
+
+}
+
+.mainbody{
+    height: 85%;
+    width: 100%;
+    background-color:rgb(26,48,60);
+}
+
+.sport_pic{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.registration{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.sport_pic img{
+      margin-left:70px;
+      /*
+      height: 590px;
+      width: 1519px;
+      */
+      height:614px;
+      width:683px;
+}
+
+.regform{
+     height: 15cm;
+     width: 12cm;
+     margin-top: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     border-top-right-radius: 10%;
+     border-bottom-left-radius: 10%;
+    /* border-top-left-radius: 5%;
+     border-bottom-right-radius: 5%;
+     */
+     background-color:white;
+     border: 1.5px solid black;
+}
+
+
+
+.signup{
+    font-size: 38px;
+    margin-bottom: 2px;
+    text-align: center;
+    color: rgb(6, 72, 158);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+input{
+    height: 1cm;
+    width: 9cm;
+    margin-top: 20px;
+    font-size: 1.1em;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    border-radius: 2px;
+    border: 2.5px dotted #4CAF50;
+    font-family: 'Lato', sans-serif;
+
+}
+
+input:hover{
+    border: 2.5px dotted red;
+}
+
+.submit_button {
+    margin-top: 0.6cm;
+    margin-left: 3.5cm;
+    margin-right: 3.5cm;
+    width: 185px;
+    height: 50px;
+
+    color: white;
+    background: #4CAF50;;
+    border: none;
+    padding: 14px 50px;
+    font-size: 22px;
+    border-radius: 2px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+
+.submit_button:hover{
+    color: white;
+    background: #fc0d46;
+    border: none;
+    
+}
+
+.footer{
+    height:5%;
+    font-family: 'Craceltype jano sans pro', sans-serif;
+    background-color:black;
+}
+
+.copyright{
+    float: left;margin-left: 10%;margin-top: 13px;
+}
+
+.developer{
+    float: right;margin-right: 10%;margin-top: 10px;
+}
+
+.developer a{
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.developer a:hover{
+    background-color: #fc0d46;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.copyright{
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menubtn{
+    width: 50px;
+    height: 50px;
+    float: right;
+    display: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px){
+    .myMenu{
+        display: none;
+    }
+
+    .menubtn{
+        display: block;
+
+        
+    }
+
+    .mainbody{
+        height: 1100px;
+    }
+
+    .sport_pic{
+        float: none;
+        width: 100%;
+        height: 30%;
+        display: block;
+        text-align: center;
+    }
+
+    .registration{
+        margin-top: 100px;
+        float: none;
+        width: 100%;
+        height:600px;
+        display: block;
+    }
+    
+    .sport_pic img{
+        margin-left:0px;
+    
+        /*
+        height: 590px;
+        width: 1519px;
+        */
+        height:400px;
+        width:400px;
+  }
+  .footer{
+      padding-top: 10px;
+      text-align: center;
+      height: 60px;
+  }
+
+  
+.copyright{
+    float: none;
+    margin-left: 0px;
+    margin-top: 13px;
+    display: block;
+}
+
+.developer{
+    float: none;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: block;
+}
+    
+}
